@@ -4,6 +4,7 @@ import 'package:get/get.dart';
 import 'package:shopping4u/app/common/utils/initializer.dart';
 import 'package:shopping4u/app/routes/app_pages.dart';
 
+import 'app/common/values/styles/theme.dart';
 import 'app/modules/widgets/base_widget.dart';
 
 void main() {
@@ -20,6 +21,7 @@ class MyApp extends StatelessWidget {
         title: "Shopping for you",
         debugShowCheckedModeBanner: false,
         initialRoute: AppPages.INITIAL,
+        theme: AppTheme.theme,
         initialBinding: InitialBinding(),
         getPages: AppPages.routes,
         builder: (_, child) => BaseWidget(

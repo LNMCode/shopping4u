@@ -3,6 +3,9 @@ import 'package:get/get.dart';
 import 'package:shopping4u/app/modules/home/bindings/home_binding.dart';
 import 'package:shopping4u/app/modules/home/views/home_view.dart';
 
+import '../modules/details/binding/detail_binding.dart';
+import '../modules/details/views/detail_view.dart';
+
 part 'app_routes.dart';
 
 abstract class AppPages {
@@ -16,5 +19,10 @@ abstract class AppPages {
       page: () => const HomeView(),
       binding: HomeBinding(),
     ),
+    GetPage(
+      name: _Paths.DETAIL,
+      page: () => const DetailView(),
+      binding: DetailBinding(),
+    )
   ];
 }

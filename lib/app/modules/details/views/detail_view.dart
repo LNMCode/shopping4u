@@ -1,19 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:get/get.dart';
-import 'package:shopping4u/app/modules/home/controllers/home_controller.dart';
+import 'package:shopping4u/app/common/values/constants.dart';
+import 'package:shopping4u/app/modules/details/controllers/detail_controller.dart';
 
-import '../../../common/values/constants.dart';
-import '../components/home_body.dart';
+import '../components/detail_body.dart';
 
-class HomeView extends GetView<HomeController> {
-  const HomeView({Key? key}) : super(key: key);
+class DetailView extends GetView<DetailController> {
+  const DetailView({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: buildAppBar(),
-      body: const HomeBody(),
+      body: DetailBody(),
     );
   }
 
