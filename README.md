@@ -1,11 +1,9 @@
-# ![Image Description]()
-
 ## Shopping For You 
 
 ## Screenshots
 <p align="center">
-<img src="/des/video1-1.webm" width="50%"/>
-<img src="/des/video2-1.webm" width="50%"/>
+<img src="/des/sc1.png" width="30%"/>
+<img src="/des/sc2.png" width="30%"/>
 </p>
 
 ## Installation
