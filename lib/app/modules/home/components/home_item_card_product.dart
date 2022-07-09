@@ -35,12 +35,15 @@ class ItemProductWidget extends StatelessWidget {
                 color: product.color,
                 borderRadius: BorderRadius.circular(16),
               ),
-              child: Image.asset(product.image),
+              child: Hero(
+                tag: "${product.id}",
+                child: Image.network(product.image),
+              ),
             ),
           ),
           Padding(
             padding:
-            EdgeInsets.symmetric(vertical: Constants.kDefaultPadding / 4),
+                EdgeInsets.symmetric(vertical: Constants.kDefaultPadding / 4),
             child: Text(
               product.title,
               style: const TextStyle(color: Colors.black45),

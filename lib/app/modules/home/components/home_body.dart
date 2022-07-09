@@ -17,7 +17,7 @@ class HomeBody extends StatelessWidget {
         Padding(
           padding: EdgeInsets.symmetric(horizontal: Constants.kDefaultPadding),
           child: Text(
-            "Women",
+            "Shopping phone",
             style: Theme.of(context)
                 .textTheme
                 .headline5!

@@ -10,10 +10,10 @@ class Categories extends StatelessWidget {
   Categories({Key? key}) : super(key: key);
   final controller = Get.find<HomeController>();
   final List<String> categories = [
-    "Hand bag",
-    "Jewellery",
-    "Footwear",
-    "Dresses"
+    "Iphone",
+    "Samsung",
+    "Picker phone",
+    "Sony"
   ];
 
   @override
